@@ -25,7 +25,7 @@ public class Introducao {
 //        System.out.println("ChronoUnit: " + ChronoUnit.WEEKS);
 //        System.out.println("");
 //        System.out.println("");
-        
+
 //         LocalDateTime localDateTime = LocalDateTime.now();
 //         ZoneOffset offset = ZoneOffset.of("+09:00");
 //         OffsetDateTime offSetByTwo = OffsetDateTime.of(localDateTime, offset);
@@ -47,19 +47,12 @@ public class Introducao {
 //        System.out.println("" + primeiroDiaDoMes2);
 //    LocalDate primeiroDiaDoMes3 = agora.with(TemporalAdjusters.nextOrSame(DayOfWeek.MONDAY));  
 //        System.out.println("" + primeiroDiaDoMes3);
-//    LocalDate primeiroDiaDoMes4 = agora.with(TemporalAdjusters.firstInMonth(DayOfWeek.MONDAY));  
-//        System.out.println("" + primeiroDiaDoMes4);
-        
-      
-    LocalDateTime nasc = LocalDateTime.of(1982, Month.SEPTEMBER, 8, 17, 30);
-    long horasAteHoje = nasc.until(LocalDateTime.now(), ChronoUnit.HOURS);         
-    System.out.println(" Horas até hoje: " + horasAteHoje);
-    
+      //  LocalDate primeiroDiaDoMes4 = agora.with(TemporalAdjusters.firstInMonth(DayOfWeek.MONDAY));
+       // System.out.println("" + primeiroDiaDoMes4);
 
-        
-        
-        
-
+        LocalDateTime nasc = LocalDateTime.of(1982, Month.SEPTEMBER, 8, 17, 30);
+        long horasAteHoje = nasc.until(LocalDateTime.now(), ChronoUnit.HOURS);
+        System.out.println(" Horas até hoje: " + horasAteHoje);
 
     }
 
