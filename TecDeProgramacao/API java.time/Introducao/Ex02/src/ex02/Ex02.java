@@ -12,5 +12,4 @@ public class Ex02 {
         LocalDateTime dataTimPortugual = LocalDateTime.ofInstant(Instant.now(), ZoneId.of("Portugal"));
         System.out.println("Data e Hora de Portugal-> " + dataTimPortugual);
     }
-
 }
