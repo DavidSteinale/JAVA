@@ -11,5 +11,4 @@ public class Ex03 {
         OffsetDateTime data = OffsetDateTime.now(zoneOffSet);
         System.out.println("Data e horario do fuso -02:00: " + data);
     }
-
 }
